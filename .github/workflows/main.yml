@@ -35,5 +35,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      - name: Run a multi-line script
+      - name: List current directory contents
         run: ls -la
+
+      - name: run script script.sh
+        run: ./scipt.sh
